@@ -124,6 +124,27 @@ const car = {
 	name: 'mers',
 	price: 30000 }
 
+checkbox checked algoritmini tuzing
+
+
+
+
+
+
+
+
+		Answer
+if(localStorage.getItem('isChecked')) {
+    checkbox.checked = true
+}
+checkbox.addEventListener('change', () => {
+    if (localStorage.getItem('isChecked')) { 
+        localStorage.removeItem('isChecked')
+    } else {
+        localStorage.setItem('isChecked', true)
+    }
+})
+
 const getResource = async (url) => {
     const res = await fetch(url)
 
