@@ -1,29 +1,15 @@
 // Uzunligi 5 dan kam bolgan so'zni chiqaring 
 const cars = ['mers', 'bmw', 'Volswagen']
-
-
 // Hammasini kichkina harf bn chiqaring 
 let names = ['SamAr','MuhaMMad','AziZ']
-
-
 //Tarkibida birorta raqam bormi bilish uchun 
 const data = [4,'a', 'b']
-
-
 // Tarkibidagi har bir harf mi bilish uchun 
 const arr = [4,'a', 'b']
-
-
-
 //Summasini chiqaring 
 const number = [4, 2, 8, 4]
-
-
-
 //bowidagi qiymati 10 bolsin 
 const number1 = [4, 2, 8, 4]
-
-
 //objectni massivga o'giring
 const object = {
   samar: 'person',
@@ -31,10 +17,7 @@ const object = {
   dog: 'animal',
   cat: 'animal'
 }
-
 //nmp ni ulash uchun nmala kerak va qanaqa kodni qayerga yozish kerak
-
-
 Github     git status
  
 git init 
@@ -54,8 +37,6 @@ npx json-server _____
 
   Home
   http://localhost:3000
-
-
 			Work with server
 stringify nima qiladi
 parse nma qiladi
@@ -83,8 +64,6 @@ parse nma qiladi
 //form ani reset
 //statusMessage ni yangila 
 //bomasa statusMessage ga qiymat ber 
-
-
 		Foydalanuvchi bn chiroyli muloqot qilish
  showThanksmodal funcksiya:
 	prevModalDialog ga modal__dialog ni olamiz
@@ -101,8 +80,7 @@ parse nma qiladi
 		prevModalDialog ga hide classni olib tawlaymiz
 		closeModal()
 
-
-		Fetch ishlatilishi
+			Fetch ishlatilishi
 fetch('server yoziladi', {
 	metodimiz
 	qaysindan malumotlani oladi
@@ -114,17 +92,7 @@ fetch('server yoziladi', {
 	}
 	bizda xatolik bolsa(callback) (catch)
 	neytral holatda(finally)
-})
-
-	Array  bn ishlash
-massivlani ichidan parametr boyicha tanlab olish uchun: 1) ['mers', 'bmw', 'Voolswagen', 'Lincoln'] uzunligi 5 dan kam bolgan sozlar ni chiqar
-
-biror massivdan yangi massiv hosil qilish: -['SamAr','MuhaMMad','AziZ'] hammasi kichkina harf bn yozilgan bolsin 
-
-massivni ichida birorta number/... bormi bilish uchun: -[4,'a', 'b']   bularni qiymati nma qaytaradi
-massivni ichida har biri number/...mi bilish uchun: -[4,'a', 'b']      bularni qiymati nma qaytaradi     		
-
-massivdagi elementlar bn amal bajarish uchun(bowlangich qiymatni bersak boladimi): [4, 2, 8, 4] summasini chiqaring
+})	
 
 object ni massivga o'girish uchun:
 
@@ -147,15 +115,6 @@ yangi CarCard(hususiyatla, parentselsector).render()
 	
 Serverdan kelganini qanaqa qilib text/json ga o'giramiz
 
-
-
-
-
-
-
-
-
-
 const getResource = async (url) => {
     const res = await fetch(url)
 
@@ -176,10 +135,3 @@ getResource('http://localhost:3000/menu')
       new CarCard(img, altimg, title, descr, price, '.menu .container').render()
     })
   })
-
-
-
-
-
-
-
