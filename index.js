@@ -20,10 +20,7 @@ const object = {
 //nmp ni ulash uchun nmala kerak va qanaqa kodni qayerga yozish kerak
 Github     git status
  
-git init 
-git config --global user.email "zebonisso1998@gmail.com"
-git add -A
-git commit -m ''
+git init | git config --global user.email "zebonisso1998@gmail.com" | git add -A | git commit -m ''
 git push --set-upstream origin master
 
 agar githubdan tortgan proyektda qowimcha modulla o'rnagan bolsa git ga kirirb proyektga papkaga kiramiz va 'npm install' ni teramiz
@@ -32,9 +29,7 @@ npm init -y
 npx json-server _____
 
  Resources
-  http://localhost:3000/menu
-  http://localhost:3000/requests
-
+  http://localhost:3000/menu |  http://localhost:3000/requests
   Home
   http://localhost:3000
 			Work with server
