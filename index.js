@@ -126,6 +126,9 @@ const car = {
 
 checkbox checked algoritmini tuzing
 
+		Regular expression
+
+
 
 
 
