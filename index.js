@@ -110,6 +110,20 @@ yangi CarCard(hususiyatla, parentselsector).render()
 	
 Serverdan kelganini qanaqa qilib text/json ga o'giramiz
 
+		Local storage
+localStorage ga yangi qiymat ber
+
+localStorage dan qiymat ol 
+
+localStorage dan qiymatni ochirish
+
+localStorage dan hamma narsani ochirish
+
+localStorage ga car ni yuklang
+const car = {
+	name: 'mers',
+	price: 30000 }
+
 const getResource = async (url) => {
     const res = await fetch(url)
 
@@ -119,10 +133,6 @@ const getResource = async (url) => {
 
     return await res.json()q
   };
-
-
-
-
 
 getResource('http://localhost:3000/menu')
   .then(data => {
