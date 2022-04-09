@@ -127,7 +127,7 @@ const car = {
 checkbox checked algoritmini tuzing
 
 		Regular expression
-
+string dagi biror belgi/harf ni alamwtirish
 
 
 
@@ -137,6 +137,9 @@ checkbox checked algoritmini tuzing
 
 
 		Answer
+		
+___.replace(/./g, '*'))			\*, \&,\ , 
+'08-07-2021'.replace(/-/g, ':'))
 if(localStorage.getItem('isChecked')) {
     checkbox.checked = true
 }
