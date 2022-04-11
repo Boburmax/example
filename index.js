@@ -128,11 +128,10 @@ checkbox checked algoritmini tuzing
 
 		Regular expression
 string dagi biror belgi/harf ni alamwtirish
-
-
-
-
-
+qaysi metod bn ishlatiladi
+\d nmani bajaradi
+\w nmani bajaradi
+\s nmani bajaradi
 
 
 
