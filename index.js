@@ -1,13 +1,18 @@
 // Uzunligi 5 dan kam bolgan so'zni chiqaring 
 const cars = ['mers', 'bmw', 'Volswagen']
+const arr = car.filter(item => item.length < 5)
 // Hammasini kichkina harf bn chiqaring 
 let names = ['SamAr','MuhaMMad','AziZ']
+names = names.map(item => item.toLowerCase()
 //Tarkibida birorta raqam bormi bilish uchun 
 const data = [4,'a', 'b']
+console.log(data.every((item) => typeOf item === 'number' ))
 // Tarkibidagi har bir harf mi bilish uchun 
 const arr = [4,'a', 'b']
+console.log(arr.every(item => typeOf(item) === 'number') 
 //Summasini chiqaring 
 const number = [4, 2, 8, 4]
+const res = number.reduce((last, fir ) => last + fir, 0)
 //bowidagi qiymati 10 bolsin 
 const number1 = [4, 2, 8, 4]
 //objectni massivga o'giring
@@ -17,6 +22,9 @@ const object = {
   dog: 'animal',
   cat: 'animal'
 }
+
+node pacakage manager  - nmp
+devDependencies - dasturlash muhit i uchun qaram
 //nmp ni ulash uchun nmala kerak va qanaqa kodni qayerga yozish kerak
 Github     git status
  
