@@ -141,9 +141,124 @@ qaysi metod bn ishlatiladi
 \w nmani bajaradi
 \s nmani bajaradi
 
+Slider 
+
+slides, next, prev, current, total larni olamiz, 
+slideIndex = 1 deb olamiz
+showSlides(slideIndex)
+agar slides ni uzubligi 10 dan kihcik bolsa total ni yozuvi 0 va slides ni uzunligiga ten
+bolmasa slides ni uzunligiga teng
+
+function showSLides (val)
+agar val katta slides ni uzunligi slideIndex 1 ga teng boladi
+agar val 1 dan kichkina bolsa slideIndex slides ni uzunligiga teng boladi
+slides ni har bittasini displayda korinmasin
+slides ni 1 chisi displayda korinsin
+agar slides ni uzunligi 10 dan kichik bolsa current ni yozuvi 0 va slides ni uzunligiga ten
+bolmasa slideIndex ga teng bolsin
+function plusSlides (val) 
+showSLides ga slideIndex += val
+--------------------------------
+next click boganda plusSlides ga beramiz 1 ni
+prev click boganda plusSlides ga beramiz -1 ni
 
 
 		Answer
+ axios.get('http://localhost:3000/menu')
+      .then(res => {
+        res.data.forEach(({img, altimg, title, descr, price}) => {
+          new MenuCard(img, altimg, title, descr, price, '.menu .container').render()
+        })
+      })
+
+
+
+  // Form
+  const forms = document.querySelectorAll('form')
+
+  forms.forEach((form) => {
+    bindPostData(form)
+  })
+
+  const msg = {
+    loading: 'img/spinner.svg',
+    success: "Thank's for submitting our form",
+    failure: 'Something went wrong',
+  }
+
+  async function postData(url, data) {
+    const res = await fetch(url, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: data,
+    })
+
+    return await res.json()
+  }
+
+  function bindPostData(form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault()
+
+      const statusMessage = document.createElement('img')
+      statusMessage.src = msg.loading
+      statusMessage.style.cssText = `
+        display: block;
+        margin: 0 auto;
+      `
+      form.insertAdjacentElement('afterend', statusMessage)
+
+      const formData = new FormData(form)
+
+      const json = JSON.stringify(Object.fromEntries(formData.entries()))
+
+      postData('http://localhost:3000/request', json)
+        .then((data) => {
+          console.log(data)
+          showThanksModal(msg.success)
+          statusMessage.remove()
+        })
+        .catch(() => {
+          showThanksModal(msg.failure)
+        })
+        .finally(() => {
+          form.reset()
+        })
+    })
+  }
+
+  function showThanksModal(message) {
+    const prevModalDialog = document.querySelector('.modal__dialog')
+
+    prevModalDialog.classList.add('hide')
+    openModal()
+
+    const thanksModal = document.createElement('div')
+    thanksModal.classList.add('modal__dialog')
+    thanksModal.innerHTML = `
+      <div class="modal__content">
+        <div data-close class="modal__close">&times;</div>
+        <div class="modal__title">${message}</div>
+      </div>
+    `
+
+    document.querySelector('.modal').append(thanksModal)
+    setTimeout(() => {
+      thanksModal.remove()
+      prevModalDialog.classList.add('show')
+      prevModalDialog.classList.remove('hide')
+      closeModal()
+    }, 4000)
+  }
+		
+		
+		
+		
+		
+		
+		/////////////////////////////////////////////////
 		
 ___.replace(/./g, '*'))			\*, \&,\ , 
 '08-07-2021'.replace(/-/g, ':'))
