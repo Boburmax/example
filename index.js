@@ -152,8 +152,8 @@ bolmasa slides ni uzunligiga teng
 function showSLides (val)
 agar val katta slides ni uzunligi slideIndex 1 ga teng boladi
 agar val 1 dan kichkina bolsa slideIndex slides ni uzunligiga teng boladi
-slides ni har bittasini displayda korinmasin
-slides ni 1 chisi displayda korinsin
+	slides ni har bittasini displayda korinmasin
+	slides ni 1 chisi displayda korinsin
 agar slides ni uzunligi 10 dan kichik bolsa current ni yozuvi 0 va slides ni uzunligiga ten
 bolmasa slideIndex ga teng bolsin
 function plusSlides (val) 
