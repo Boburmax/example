@@ -149,6 +149,11 @@ showSlides(slideIndex)
 agar slides ni uzubligi 10 dan kihcik bolsa total ni yozuvi 0 va slides ni uzunligiga ten
 bolmasa slides ni uzunligiga teng
 
+-----------------------Carouseal slider---------------------------------
+bitta div qoshamiz offfer__wrapper-inner
+
+
+
 function showSLides (val)
 agar val katta slides ni uzunligi slideIndex 1 ga teng boladi
 agar val 1 dan kichkina bolsa slideIndex slides ni uzunligiga teng boladi
