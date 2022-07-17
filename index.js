@@ -1,3 +1,5 @@
+obyektlani hususiyatlarini log qilish uchun nmadan foydalanialdi
+
 // Uzunligi 5 dan kam bolgan so'zni chiqaring 
 const cars = ['mers', 'bmw', 'Volswagen']
 const arr = car.filter(item => item.length < 5)
@@ -103,6 +105,9 @@ Fetch data => data.json()  -- bazani json ga o'qirish
 
 async - xoxlagan 
 sync - bir chekkadan
+
+
+obyekt larni hususiyatlarini korish uchun console.dir(obyekt)
 
 		Serverdan ma'lumotlani olish
 	Funksiyasi
