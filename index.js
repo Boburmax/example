@@ -172,6 +172,12 @@ showSLides ga slideIndex += val
 next click boganda plusSlides ga beramiz 1 ni
 prev click boganda plusSlides ga beramiz -1 ni
 
+dot massiv, ol yasimiz(indicator), indicator ga css beramiza, slider ga indicatorni uliymiza, for bn dot la yasiymiza va css beramiza, opacity ni if bn beramiza, 
+indicator ga dot ulimiz, dots laga dot ni qowamiza, if < 10 ga qowimcha kiritamiza dot lani har birini opacity si .5 bolsin, dotlani 1 -si opacity 1 bolsin,
+dotlani har biri uchun click hodisa qowamiza 
+yengi slideTo ozgaruvchi, data-slide-to attributlini qiymatini olsin, slideIndex = slideTo, offset beramiz va qimirlatamiz, current va total qiymatlarini korsatamiza,
+	dot lani harbiriga opacity .5 va birinchisisga opacity 1 beramiza
+
 
 		Answer
  axios.get('http://localhost:3000/menu')
