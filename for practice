@@ -10,3 +10,4 @@ prompt nma va qanaqa qiymat oladi                                    alertga oxw
 typeof                                                               console.log(typeof __)
 stringni qanaqa qilib number qilish mumkin                            stringni (promptgni oldidan) oldiga + q  oyamiz
 massiv ni type of qilsda nima chiqadi                                              object
+interpolyatsiya qilish                                                              `${}`
