@@ -1,0 +1,12 @@
+nega scriptni ohiriga qoyib ukaymiz
+let bn const ni nima farqi bor                                                    const asosan ozgarmaydi, let ni ozgartirib iwlatsza boladi
+constantani qacon ozgartirsa boladi                                                obyekt yordamida ozgartirsa boladi
+"use strict"; - nma uchun ishlatiladi                                  eski usulda yozilgan kodlarni hato qilib korsatadi
+NaN qacon hosil boladi, infinity chi                                  string * number
+null                                                                 = is not defined
+undefined =                                                         qiymat yoq bolsa                                  
+confirm nma va qanaqa qiymat qaytaradi                              (true/false)
+prompt nma va qanaqa qiymat oladi                                    alertga oxwaydi va string qabul qilad
+typeof                                                               console.log(typeof __)
+stringni qanaqa qilib number qilish mumkin                            stringni (promptgni oldidan) oldiga + q  oyamiz
+massiv ni type of qilsda nima chiqadi                                              object
