@@ -11,3 +11,15 @@ typeof                                                               console.log
 stringni qanaqa qilib number qilish mumkin                            stringni (promptgni oldidan) oldiga + q  oyamiz
 massiv ni type of qilsda nima chiqadi                                              object
 interpolyatsiya qilish                                                              `${}`
+increment prefix bn suffix qismida kelishi nma farq qiladi                                  prefix bolsa oldin qiymatini keyin ozgartiradi, suffix bolsa srazu ozgaradi ozgartiradi
+qoldiq operatori                                                                     5 % 3  1 qolddiq 
+== va === ni nma farqi bor                                                  === nafaqat qimati balki datani typeni ham tekshiradi
+&& va,  || yoki
+teskari boolean qaytarish operatori                                                        !
+git haqida dars 11
+bosh obyekt yasang                                                                                          {}
+obyektga misol                                                                  const man = { boy:187, rang: "sariq", series:{}}  man.rang
+obyektga hususiyat berish                                                         man.series[ozg1] = ozg2
+ternar operator                                shart ? hodisa : else dagi hodisa
+switch loopda nma tohatadi                                                                           break  
+switchdagi poumolchaniyesi nma                                                                    default:
