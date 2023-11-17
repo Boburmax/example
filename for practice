@@ -30,10 +30,13 @@ stringdagi biror harfni nechinchi indexda turganini bilish un metod             
 string ni malum bir qismini kesishu                                                                         string.slice(start, end)
 console.dir(__)                                                                                      ___ ni metodlarini koriwga yordam beradi
 prompt da ok, cancelni bossa qanaqa qiymatlar qaytaradi                                                  ok ni bossa "", cancell null, isNaN
-callback nima                                                          function (first, second) firstdan keyin iwlaydigan fumksiya
+callback nima                                                          function (first, second) firstdan keyin iwlaydigan second funksiya
 objectdan method(malumot)ni ochiriw                                                                      delete object.method
 yaratilgan objectni ichidagi datalarini keyini massiv holatida koriw                                  console.log(Object.keys(__))
-objectni ichidagi objectni datasini koriw                                              obj["data"][data] 
+objectni ichidagi objectni datasini koriw                                              obj["data1"]["data2"] 
 destruktizatsiya                                                                   const {datani prop1, datani prop2} = obj.data    
 array.length ni eng katta minusi                                                    ohirgi indeksga +1 ni qowadi, ohirgisidan oldin qiyamt bolmasa ham
 string da belgi boyicha bolib massiv qilish methodi                                                          __.split("belgi")
+array uchun iteratsiya                                                                    for(let key of arr ) {console.log(key)}
+array uchun forEach iteratsiyasi                                                    arr.forEach(function(key, index,arr) {console.log(`${index} ${key}`)
+arr.sort() togri iwlawi uchun                                                      arr.sort((a, b) => a-b)
