@@ -39,10 +39,14 @@ array.length ni eng katta minusi                                                
 string da belgi boyicha bolib massiv qilish methodi                                                          __.split("belgi")
 array uchun iteratsiya                                                                    for(let key of arr ) {console.log(key)}
 array uchun forEach iteratsiyasi                                                    arr.forEach(function(key, index,arr) {console.log(`${index} ${key}`)
-arr.sort() togri iwlawi uchun                                                      arr.sort((a, b) => a-b)
+arr.sort() togri iwlawi uchun                                                       arr.sort((a, b) => a-b)
 obj clonelash                                                                       const __ = Object.assign({}, anotherObj) 
 2 ta objectni birlashtirish                                                         const ___ = Object.assign(firstObj, secObj)
 array ni clone qilish metodi                                                        const ___ = arr.slice()
 2ta massivni spread operatori bn birlawtiriw                                        const ____ = [...firArr, ...secArr]
+spread yordamida arr ni clonelash                                                   const __ = [...prevArr]
+spread yordamida obj ni clonelash                                                   const __ = {...prevObj}
+
+
 
 
