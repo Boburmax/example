@@ -3,11 +3,11 @@ let bn const ni nima farqi bor                                                  
 constantani qacon ozgartirsa boladi                                                obyekt yordamida ozgartirsa boladi
 "use strict"; - nma uchun ishlatiladi                                  eski usulda yozilgan kodlarni hato qilib korsatadi
 NaN qacon hosil boladi, infinity chi                                  string * number
-null                                                                 = is not defined
+null                                                                 = is not defined yoki cancell bosganda == null boladi
 undefined =                                                         qiymat yoq bolsa                                  
 confirm nma va qanaqa qiymat qaytaradi                              (true/false)
 prompt nma va qanaqa qiymat oladi                                    alertga oxwaydi va string qabul qilad
-typeof                                                               console.log(typeof __)
+typeof bn qaysi operator iwlatilad                                                            console.log(typeof __) || typeof ==
 stringni qanaqa qilib number qilish mumkin                            stringni (promptgni oldidan) oldiga + q  oyamiz
 massiv ni type of qilsda nima chiqadi                                              object
 interpolyatsiya qilish                                                              `${}`
