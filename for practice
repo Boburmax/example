@@ -46,7 +46,8 @@ array ni clone qilish metodi                                                    
 2ta massivni spread operatori bn birlawtiriw                                        const ____ = [...firArr, ...secArr]
 spread yordamida arr ni clonelash                                                   const __ = [...prevArr]
 spread yordamida obj ni clonelash                                                   const __ = {...prevObj}
-
+textContent bn innerHTML ni farqi                                                   if tag hozilsa innerHTML bolsa kodimiz buzilib ketadi
+textContent                                                                         div larda textni ozgartiradi
 
 
 
