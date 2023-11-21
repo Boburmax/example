@@ -50,8 +50,10 @@ textContent bn innerHTML ni farqi                                               
 textContent                                                                         div larda textni ozgartiradi
 classList.length                                                                    nechta class borligini bilish uchun
 classList.item(_)                                                                  _ chi classni chiqarib beradi
+class ni ichida class tekshirish                                                    .classList.contains("__")
 classList ga class qoshish/olib tashlash                                           .classList.add()/remove()
+borsa bolsa olib tawlaydi bomasa qoyadi                                             .classList.toggle("___")
 addEventListener wrapperda tocniy olishi un                                        wrapper.addEventListener('click', (item)=> {item.target.classList.toggle('red')})
-
+forEach ham __.target ham bir hil qiymat qaytaradi    
 
 
