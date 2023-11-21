@@ -55,5 +55,5 @@ classList ga class qoshish/olib tashlash                                        
 borsa bolsa olib tawlaydi bomasa qoyadi                                             .classList.toggle("___")
 addEventListener wrapperda tocniy olishi un                                        wrapper.addEventListener('click', (item)=> {item.target.classList.toggle('red')})
 forEach ham __.target ham bir hil qiymat qaytaradi    
-
-
+saytni shirinasini olchash                                                        document.documentElement.clientWidth
+document ga scroll bolmsligi uchun                                                document.body.style.overflow = 'hidden'
