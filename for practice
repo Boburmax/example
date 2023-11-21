@@ -48,6 +48,10 @@ spread yordamida arr ni clonelash                                               
 spread yordamida obj ni clonelash                                                   const __ = {...prevObj}
 textContent bn innerHTML ni farqi                                                   if tag hozilsa innerHTML bolsa kodimiz buzilib ketadi
 textContent                                                                         div larda textni ozgartiradi
+classList.length                                                                    nechta class borligini bilish uchun
+classList.item(_)                                                                  _ chi classni chiqarib beradi
+classList ga class qoshish/olib tashlash                                           .classList.add()/remove()
+addEventListener wrapperda tocniy olishi un                                        wrapper.addEventListener('click', (item)=> {item.target.classList.toggle('red')})
 
 
 
