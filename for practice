@@ -57,3 +57,4 @@ addEventListener wrapperda tocniy olishi un                                     
 forEach ham __.target ham bir hil qiymat qaytaradi    
 saytni shirinasini olchash                                                        document.documentElement.clientWidth
 document ga scroll bolmsligi uchun                                                document.body.style.overflow = 'hidden'
+addEventListener('keydown', (e)=> { e.code='Escape'} )                            modal chiqqanida Escape ni bossa yopilishi uchun
