@@ -1,0 +1,18 @@
+  MODAL
+kerak knopka,modalhtml, closeBtn
+
+display block/none
+oveflow hidden
+target == modal
+target.code = 'Escape' || classList da show bormi
+setTimeout bn zapusk
+
+TAB 
+
+kerak: tabParent,tabs,tabcontent(Info chiqarish)
+
+style.display block/none
+1-hamma tablarni displayini none, keyin target bolganin i displayini block + class.add tabheader__item_active
+2-tablarni hammasini tekshiramiz target == item
+
+
