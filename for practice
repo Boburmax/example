@@ -62,3 +62,4 @@ setTimeout bn setInterval ni farqi
 html dagi elementga [] orqali ulanish uchun                                       html class oldin yozamiz masalan: data-item
 use strict yoniq bolsa function ga prop berilmasa nmani qaytaradi                        window
 use strict yoniq obj ni ichidagi function da this ishlatsa nmani qaytaradi                obj ni ozini qaytaradi
+call, apply                                                                       functionni biror obj ga ulamoqchi bologanda
