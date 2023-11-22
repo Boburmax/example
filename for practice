@@ -63,3 +63,5 @@ html dagi elementga [] orqali ulanish uchun                                     
 use strict yoniq bolsa function ga prop berilmasa nmani qaytaradi                        window
 use strict yoniq obj ni ichidagi function da this ishlatsa nmani qaytaradi                obj ni ozini qaytaradi
 call, apply                                                                       functionni biror obj ga ulamoqchi bologanda
+function declaartion bn strelocniy function nma farqi bor                          this berganda declaration ulangan narsani qaytaradi,=> esa undefined
+
