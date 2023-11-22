@@ -12,6 +12,13 @@ target == modal
 target.code = 'Escape' || classList da show bormi
 setTimeout bn zapusk
 
+ShowModalByScroll
+window.pageYOffset
+document.documentElement.clientHeight      kliyent koradigan msaofa
+window.addEventListener('scroll',showModalByScroll)
+window.removeEventListener('scroll',showModalByScroll) qaytarilavermasligi uchun
+
+
 TAB 
 
 kerak: tabParent,tabs,tabcontent(Info chiqarish)
