@@ -67,5 +67,6 @@ use strict yoniq obj ni ichidagi function da this ishlatsa nmani qaytaradi      
 call, apply                                                                       functionni biror obj ga ulamoqchi bologanda
 function declaartion bn strelocniy function nma farqi bor                          this berganda declaration ulangan narsani qaytaradi,=> esa undefined
 => function da this kelsa                                                          ozidan tepadagi construktorga ulanadi
+bind qanaqa iwlaydi                                                                argument qabul qiladigan funksiyaga this uchun bowqaconstdan oladi va ushbu funksiya caqirganda arg beriladi
 
 
