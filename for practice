@@ -68,5 +68,7 @@ call, apply                                                                     
 function declaartion bn strelocniy function nma farqi bor                          this berganda declaration ulangan narsani qaytaradi,=> esa undefined
 => function da this kelsa                                                          ozidan tepadagi construktorga ulanadi
 bind qanaqa iwlaydi                                                                argument qabul qiladigan funksiyaga this uchun bowqaconstdan oladi va ushbu funksiya caqirganda arg beriladi
+clone lash                                                                          const __ = JSON.parse(JSON.stringify(__))
+JSON.stringify obj ni, JSON.parse chi                                               json qilib beradi, parse esa json ni obj qilib beradi
 
 
