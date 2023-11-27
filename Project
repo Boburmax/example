@@ -33,3 +33,4 @@ FORM dan datalarni olish
 formalarni olamiz va har birini postData degan funksiyani param iga beramiz
 postData function: form ga submit dega hodisa ilazmiz preventDefault ni yozamiz, 
 Dav: XML sorov yozamiz, POST server.php, const formData = new FormData(form), send(fornData), request load degan hodisa, 
+formdatadan emas json: obj yasaymiz, formdatadagini objga yozamiz, obj json qilib olamiz, send(json)
