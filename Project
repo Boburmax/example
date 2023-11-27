@@ -28,3 +28,8 @@ style.display block/none
 2-tablarni hammasini tekshiramiz target == item
 
 
+FORM dan datalarni olish
+
+formalarni olamiz va har birini postData degan funksiyani param iga beramiz
+postData function: form ga submit dega hodisa ilazmiz preventDefault ni yozamiz, 
+Dav: XML sorov yozamiz, POST server.php, const formData = new FormData(form), send(fornData), request load degan hodisa, 
