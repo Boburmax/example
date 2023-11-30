@@ -34,3 +34,8 @@ formalarni olamiz va har birini postData degan funksiyani param iga beramiz
 postData function: form ga submit dega hodisa ilazmiz preventDefault ni yozamiz, 
 Dav: XML sorov yozamiz, POST server.php, const formData = new FormData(form), send(fornData), request load degan hodisa, 
 formdatadan emas json: obj yasaymiz, formdatadagini objga yozamiz, obj json qilib olamiz, send(json), php ga qoshimcha kod
+
+SHowThanksModal
+function__: modal__dialog ni olamiz, va uni none qilamiz, srzu openModal(), yangi div=>modal__dialog class add=> innerHTML;
+.modal ni olib shunga append divni. setTimeot divni remove qilamiz, odal__dialog ni show class qowamiz va hdie classni removeqilamiz closeModal(),
+
