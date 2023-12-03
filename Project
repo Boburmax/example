@@ -40,4 +40,4 @@ function__: modal__dialog ni olamiz, va uni none qilamiz, srzu openModal(), yang
 .modal ni olib shunga append divni. setTimeot divni remove qilamiz, odal__dialog ni show class qowamiz va hdie classni removeqilamiz closeModal(),
 
 Spinner loader
-joyiga joylaymiz, width+height, div img ga ozgartiramiz, statusMessage src beramiz, style berzamiz, 
+joyiga joylaymiz, width+height, div img ga ozgartiramiz, statusMessage src beramiz, style berzamiz, (inserAdjaceElement va setTimeout ga etibor beramiz)
