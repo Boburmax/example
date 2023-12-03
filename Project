@@ -41,3 +41,6 @@ function__: modal__dialog ni olamiz, va uni none qilamiz, srzu openModal(), yang
 
 Spinner loader
 joyiga joylaymiz, width+height, div img ga ozgartiramiz, statusMessage src beramiz, style berzamiz, (inserAdjaceElement va setTimeout ga etibor beramiz)
+
+JSON SERVER
+npm init -y      npm i json-server -D      json-server --watch db.json
