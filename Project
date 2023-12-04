@@ -43,4 +43,4 @@ Spinner loader
 joyiga joylaymiz, width+height, div img ga ozgartiramiz, statusMessage src beramiz, style berzamiz, (inserAdjaceElement va setTimeout ga etibor beramiz)
 
 JSON SERVER
-npm init -y      npm i json-server -D      json-server --watch db.json
+npm init -y      npm i json-server -D      npx json-server db.json  kelgan datalarni .json() qilib olamiz
